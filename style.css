@@ -1,0 +1,143 @@
+body {
+    background-color: whitesmoke;
+}
+input {
+    height: 2.5rem;
+    margin-bottom: 5px;
+}
+.b, .c, .d, .e {
+    display: inline;
+    padding: 0.5rem;
+    margin: 2rem;
+    font-size: 2rem;
+}
+.a:hover {
+    background-color: turquoise;
+    padding: 1rem;
+    box-shadow: grey 2px 2px;
+}
+.b:hover {
+    background-color: turquoise;
+    padding: 1rem;
+    box-shadow: grey 2px 2px;
+}
+.c:hover {
+    background-color: turquoise;
+    padding: 1rem;
+    box-shadow: grey 2px 2px;
+}
+.d:hover {
+    background-color: turquoise;
+    padding: 1rem;
+    box-shadow: grey 2px 2px;
+}
+.e:hover {
+    background-color: turquoise;
+    padding: 1rem;
+    box-shadow: grey 2px 2px;
+}
+#nav {
+    position: fixed;
+    top: 0;
+    background-color: burlywood;
+    text-decoration: none;
+    z-index: 2;
+    padding: 0.5rem;
+}
+h2 {
+    text-align: center;
+    color: rgb(221, 162, 85);
+    font-size: 3rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: grey 4px 4px;
+}
+span {
+    color: green;
+    background-color: white;
+    box-shadow: grey 2px 2px 2px 2px;
+}
+ol li {
+    font-size: 3rem;
+    color: burlywood;
+    text-transform: uppercase;
+}
+.home {
+    text-align: center;
+    font-size: 5rem;
+    color: burlywood;
+}
+
+.nav {
+    font-size: 4rem;
+    margin: 2rem;
+    list-style-type: none;
+    display: inline-block;
+    color: burlywood;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav:hover {
+    background-color: grey;
+    box-shadow: burlywood 4px 4px;
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+    text-shadow: turquoise 2px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropbtn {
+    background-color:burlywood;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(240, 224, 203);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content form {
+    color: black;
+    padding: 42px 30px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content form:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: turquoise;
+    box-shadow: grey 2px 2px;
+    padding: 0.5rem;
+  }
+ 
